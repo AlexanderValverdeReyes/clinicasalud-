@@ -7,7 +7,7 @@ function Register({ setUser }) {
     nombre: "",
     apellido: "",
     dni: "",
-    contrasena: "", // 👈 sin tilde para evitar problemas
+    contraseña: "", 
     telefono: "",
     correo: "",
   });
@@ -27,7 +27,7 @@ function Register({ setUser }) {
       !form.nombre ||
       !form.apellido ||
       !form.dni ||
-      !form.contrasena ||
+      !form.contraseña ||
       !form.telefono ||
       !form.correo
     ) {
@@ -122,7 +122,7 @@ function Register({ setUser }) {
           <label className="form-label">Contraseña</label>
           <input
             type="password"
-            name="contrasena"
+            name="contraseña"
             className="form-control"
             value={form.contrasena}
             onChange={handleChange}
