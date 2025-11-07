@@ -7,7 +7,7 @@ function Register({ setUser }) {
     nombre: "",
     apellido: "",
     dni: "",
-    contraseña: "", 
+    contraseña: "",
     telefono: "",
     correo: "",
   });
@@ -124,7 +124,7 @@ function Register({ setUser }) {
             type="password"
             name="contraseña"
             className="form-control"
-            value={form.contrasena}
+            value={form.contraseña}
             onChange={handleChange}
             required
           />
